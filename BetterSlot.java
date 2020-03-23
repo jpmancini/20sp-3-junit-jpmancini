@@ -15,9 +15,9 @@ public class BetterSlot {
 	
 	static int[] pullTheLever() {
 		int[] nums = new int[5];
+		Random r = new Random();
 		
 		for(int i = 0; i < 5; i++) {
-			Random r = new Random();
 			nums[i] = r.nextInt(50) + 1;
 		}
 		
