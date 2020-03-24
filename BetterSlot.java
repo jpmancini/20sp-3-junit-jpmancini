@@ -13,7 +13,7 @@ public class BetterSlot {
 	
 	public BetterSlot() {};
 	
-	static int[] pullTheLever() {
+	public int[] pullTheLever() {
 		int[] nums = new int[5];
 		Random r = new Random();
 		
@@ -24,7 +24,7 @@ public class BetterSlot {
 		return nums;
 	}
 	
-	int payOff( int[] values ) {
+	public int payOff( int[] values ) {
 		int payout = 0;
 		int[] counts = {0,0,0,0,0};
 		
